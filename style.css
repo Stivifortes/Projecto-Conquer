@@ -5,7 +5,10 @@ body {
 
 .menu {
 	background-color: #333434;
+	position: sticky;
 	height: 80px;
+	top:0;
+	margin: 0;
 }
 
 .menuint {
@@ -49,13 +52,8 @@ body {
 	background-color: grey;
 }
 
-.imghome {
-	background-image: url("images/bg-1.jpg"); 
-	height: 500px;
+.hero-home {
+	background-image: url("images/bg-1.jpg");
 }
 
-.bg1 {
-	width:100%;
-	height: 100%;
-}
 
