@@ -7,6 +7,7 @@ body, html {
 	height: 100%;
 }
 
+/*--Top Menu-Story One--*/
 .menu {
 	background-color: #333434;
 	position: fixed;
@@ -57,6 +58,7 @@ body, html {
 	background-color: grey;
 }
 
+/*--Hero Image-Story Two--*/
 .hero-home {
 	background-image: url("images/bg-1.jpg");
 	height: 98%;
