@@ -44,7 +44,7 @@ body, html {
 	text-decoration: none;
 	color: #FFF;
 	font-size: 20px;
-	border: 1px solid white;
+	border: 1px solid rgb(199, 186, 186);
 	margin-left: 16px;
 	padding: 12px 30px;
 	
@@ -80,3 +80,235 @@ body, html {
 .hero-text h1 {font-size: 60px; text-shadow: 2px 2px black;}
 .hero-text h3 {font-size: 25px;}
 
+
+<!--Third Story-->
+
+
+.terceiro{
+	width: 100%;
+	background-color:white;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 500px;
+
+
+	
+}
+
+.bootstrap{
+	background-color: hsla(0, 19%, 89%, 0.4);;
+	width: 23.8%;
+	float: left;
+	margin-left: 185px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	
+	}
+
+#img11{
+width: 360px;
+float: left;
+margin-left:0px;
+margin-top: 0px;
+
+
+
+}
+
+.responsive{
+	background-color: hsla(0, 19%, 89%, 0.4);
+	width: 23.8%;
+	float: left;
+	margin-left: 30px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	}
+#img12{
+	width: 360px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	position: absolute;
+	
+}
+
+.paralax{
+	background-color: hsla(0, 19%, 89%, 0.4);
+	width: 23.8%;
+	float: left;
+	margin-left: 30px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	}
+#img13{
+
+	width: 360px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+}
+
+.bootstrap h1{
+	color: green;
+	font-size:22px;
+	padding-top: 190px;
+	margin: 16px;
+}
+.bootstrap p{
+
+	margin: 16px;
+}
+
+.bootstrap button{
+	height:50px;
+	width: 170px;
+	margin-left: 94px;
+	margin-top: 10px;
+	border-radius: 6px;
+	border:none;
+	background: green;
+	color: white;
+	font-size: 20px;
+}
+
+.bootstrap button:hover{
+
+	background-color:green;
+	opacity: 0.8;
+	
+}
+
+
+.responsive h1{
+	color: blue;
+	font-size:22px;
+	padding-top: 190px;
+	margin: 16px;
+}
+
+.responsive p{
+	margin: 16px;
+}
+
+.responsive button{
+	height:50px;
+	width: 170px;
+	margin-left: 94px;
+	margin-top: 10px;
+	border-radius: 6px;
+	border:none;
+	background: rgb(0, 23, 128);
+	color: white;
+	font-size: 20px;
+}
+.responsive button:hover{
+
+	background-color:rgb(0, 23, 128);
+	opacity: 0.8;
+	
+}
+
+.paralax h1{
+	color: rgb(110, 59, 11);
+	font-size:22px;
+	padding-top: 190px;
+	margin: 16px;
+}
+
+.paralax p{
+	margin: 16px;
+}
+
+.paralax button{
+	height:50px;
+	width: 170px;
+	margin-left: 94px;
+	margin-top: 10px;
+	border-radius: 6px;
+	border:none;
+	background: rgb(110, 59, 11);
+	color: white;
+	font-size: 20px;
+}
+.paralax button:hover{
+
+	background-color: rgb(110, 59, 11);
+	opacity: 0.8;
+	
+}
+
+
+.leftside{
+
+	background-color: hsla(0, 19%, 89%, 0.4);;
+	width: 555px;
+	float: left;
+	margin-left: 185px;
+	margin-top: 50px;
+	padding-bottom: 116px;
+	
+	
+}
+
+.leftside #image21{
+width: 555px;
+
+}
+
+.rightside{
+	background-color: hsla(0, 19%, 89%, 0.4);
+	width: 555px;
+	float: left;
+	margin-top: 50px;
+	padding-bottom: 70px;
+	margin-left: 30px;
+	
+
+}
+
+.rightside #image22{
+	margin:0px;
+	padding: 0px;
+	width: 555px;
+	
+}
+
+.leftside h1{
+	font-size: 28px;
+	text-align: center;
+}
+
+.leftside p{
+	margin: 16px;
+}
+
+.rightside h1{
+	font-size: 28px;
+	text-align: center;
+}
+
+.rightside p{
+	margin: 16px;
+}
+
+.rightside button{
+
+	width: 155px;
+	height:45px;
+	border-radius: 5px;
+	border:1px solid black;
+	background-color: rgb(85, 80, 80);
+	float: right;
+	margin-right: 95px;
+
+}
+.rightside button:hover{
+	background-color:hsla(0, 19%, 89%, 0.4);
+	
+}
+
+.space{
+	margin-bottom :50px;
+
+}
