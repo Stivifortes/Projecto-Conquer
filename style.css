@@ -18,6 +18,30 @@ body, html {
 	z-index: 2;
 }
 
+/*Menu For Small Devices*/
+.menu-bar {
+	width: 40px;
+	height: 40px;
+	display: none;
+}
+
+/*From 900px The Menu Layout Changes to an menu-bar icon*/
+@media (max-width: 900px){
+	.menu-bar {
+		display:block;
+		position: fixed;
+		z-index: 2;
+		left: 85%;
+	}
+	.menu {
+		display: none;
+	}
+	.menuint {
+		display: none;
+	}
+}
+
+/* Styling the whole Menu*/
 .menuint {
 	height: 80px;
 	width: 100%;
@@ -47,7 +71,6 @@ body, html {
 	border: 1px solid rgb(199, 186, 186);
 	margin-left: 16px;
 	padding: 12px 30px;
-	
 }
 
 .menuint li a:active {
@@ -58,257 +81,222 @@ body, html {
 	background-color: grey;
 }
 
+
 /*--Hero Image-Story Two--*/
 .hero-home {
 	background-image: url("images/bg-1.jpg");
 	height: 98%;
+	width: 100%;
 	background-position: center;
  	background-size: cover;
   	position: relative;
   	background-attachment: fixed;
 }
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+/*Small Devices*/
+@media (max-width:700px){
+	.hero-home {
+		height: 60%;
+		align-items: center;
+		justify-content: center; 
+	}
 }
 
-.hero-text h1 {font-size: 60px; text-shadow: 2px 2px black;}
-.hero-text h3 {font-size: 25px;}
+.hero-text {
+	text-align: center;
+  	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.hero-text h1 {font-size: 5vw; text-shadow: 2px 2px black;}
+.hero-text h3 {font-size: 2vw;}
 
 
-<!--Third Story-->
-
+/*--Third Story- 3 Boxes --*/
+.bootstrap img, .responsive img, .paralax img {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 .terceiro{
 	width: 100%;
-	background-color:white;
-	padding: 0;
-	margin: 0;
-	margin-bottom: 500px;
-
-
-	
+	max-width: 1200px;
+	height: auto;
+	/*background-color:red;*/
+	margin: auto;
+	padding: 10px 10px;
 }
 
-.bootstrap{
+/* Thre side column*/
+.box-conteiner {
+	width: 100%;
+	max-width: 1200px;
+	height: 500px;
+	margin-left: 20px;
+	margin-top: 20px;
+	/*background-color: seagreen;*/
+}
+
+.row img {
+	width: 100%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	width: 28%;
+	height: 500px;
 	background-color: hsla(0, 19%, 89%, 0.4);;
-	width: 23.8%;
 	float: left;
-	margin-left: 185px;
-	margin-top: 50px;
-	padding-bottom: 50px;
-	
+	margin-left: 20px;
+	padding: 10px;
+	text-align: center;
+}
+/*-Big Devices--*/
+@media (max-width:950px){
+	.row {
+		width:45%;
+		height: auto;
+		float: left;
+		margin: 20px;
+		position: relative;
+		left: 18%;
 	}
-
-#img11{
-width: 360px;
-float: left;
-margin-left:0px;
-margin-top: 0px;
-
-
-
 }
 
-.responsive{
-	background-color: hsla(0, 19%, 89%, 0.4);
-	width: 23.8%;
+/*---Two Side Conteiner---*/
+.two-side-conteiner {
+	width: 100%;
+	max-width: 1200px;
+	height: 600px;
+	margin-left: 20px;
+	margin-top: 20px;
+	/* background-color: seagreen; */
+}
+
+.side img {
+	width: 100%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.side {
+	width: 44%;
+	height: auto;
+	background-color: hsla(0, 45%, 94%, 0.4);;
 	float: left;
-	margin-left: 30px;
-	margin-top: 50px;
-	padding-bottom: 50px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;
+	text-align: justify;
+	position: relative;
+	left:0.1%;
+}
+
+/*Small Devices for two side box*/
+@media (max-width:980){
+	.side {
+		width: 55%;
+		height: auto;
+		float: left;
+		margin-left: 30px;
+		position: relative;
+		left: 20%;
 	}
-#img12{
-	width: 360px;
+}
+
+/*The Fifth Story*/
+/* #servicos {
+	margin-top: 20px;
+	margin-bottom: 35px;
+	background-image: url("images/bg-2.jpg");
+	height: 40%;
+	background-position: center;
+ 	background-size: cover;
+  	position: relative;
+  	background-attachment: fixed;
+} */
+
+.hero-text h2 {font-size: 1.8em; text-shadow: 2px 2px grey;}
+.hero-text p {font-size: 1.2em; text-shadow: 2px 2px grey;}
+
+/*--4 Boxes --*/
+.quatrobox {
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	/*background-color: red;*/
+	margin: auto;
+}
+
+.box {
+	width: 20%;
+	height: 500px;
+	background-color: hsla(0, 47%, 91%, 0.4);
 	float: left;
-	margin-left: 0px;
-	margin-top: 0px;
-	position: absolute;
-	
-}
-
-.paralax{
-	background-color: hsla(0, 19%, 89%, 0.4);
-	width: 23.8%;
-	float: left;
-	margin-left: 30px;
-	margin-top: 50px;
-	padding-bottom: 50px;
-	}
-#img13{
-
-	width: 360px;
-	float: left;
-	margin-left: 0px;
-	margin-top: 0px;
-	
-}
-
-.bootstrap h1{
-	color: green;
-	font-size:22px;
-	padding-top: 190px;
-	margin: 16px;
-}
-.bootstrap p{
-
-	margin: 16px;
-}
-
-.bootstrap button{
-	height:50px;
-	width: 170px;
-	margin-left: 94px;
-	margin-top: 10px;
-	border-radius: 6px;
-	border:none;
-	background: green;
-	color: white;
-	font-size: 20px;
-}
-
-.bootstrap button:hover{
-
-	background-color:green;
-	opacity: 0.8;
-	
-}
-
-
-.responsive h1{
-	color: blue;
-	font-size:22px;
-	padding-top: 190px;
-	margin: 16px;
-}
-
-.responsive p{
-	margin: 16px;
-}
-
-.responsive button{
-	height:50px;
-	width: 170px;
-	margin-left: 94px;
-	margin-top: 10px;
-	border-radius: 6px;
-	border:none;
-	background: rgb(0, 23, 128);
-	color: white;
-	font-size: 20px;
-}
-.responsive button:hover{
-
-	background-color:rgb(0, 23, 128);
-	opacity: 0.8;
-	
-}
-
-.paralax h1{
-	color: rgb(110, 59, 11);
-	font-size:22px;
-	padding-top: 190px;
-	margin: 16px;
-}
-
-.paralax p{
-	margin: 16px;
-}
-
-.paralax button{
-	height:50px;
-	width: 170px;
-	margin-left: 94px;
-	margin-top: 10px;
-	border-radius: 6px;
-	border:none;
-	background: rgb(110, 59, 11);
-	color: white;
-	font-size: 20px;
-}
-.paralax button:hover{
-
-	background-color: rgb(110, 59, 11);
-	opacity: 0.8;
-	
-}
-
-
-.leftside{
-
-	background-color: hsla(0, 19%, 89%, 0.4);;
-	width: 555px;
-	float: left;
-	margin-left: 185px;
-	margin-top: 50px;
-	padding-bottom: 116px;
-	
-	
-}
-
-.leftside #image21{
-width: 555px;
-
-}
-
-.rightside{
-	background-color: hsla(0, 19%, 89%, 0.4);
-	width: 555px;
-	float: left;
-	margin-top: 50px;
-	padding-bottom: 70px;
-	margin-left: 30px;
-	
-
-}
-
-.rightside #image22{
-	margin:0px;
-	padding: 0px;
-	width: 555px;
-	
-}
-
-.leftside h1{
-	font-size: 28px;
+	margin-left: 20px;
+	padding: 10px;
 	text-align: center;
 }
 
-.leftside p{
-	margin: 16px;
+.box img {
+	width: 100%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.rightside h1{
-	font-size: 28px;
-	text-align: center;
-}
-
-.rightside p{
-	margin: 16px;
-}
-
-.rightside button{
-
-	width: 155px;
-	height:45px;
-	border-radius: 5px;
-	border:1px solid black;
-	background-color: rgb(85, 80, 80);
-	float: right;
-	margin-right: 95px;
+/*Small Devices (Tablet)*/
+@media (min-width:750px) and (max-width: 900px) {
+	.quatrobox {
+		margin: auto;
+	}
+	.box {
+		width: 30%;
+		float: left;
+		margin-left: 25px;
+		margin-bottom: 15px;
+		position: relative;
+		left: 15%;
+		
+	}
 
 }
-.rightside button:hover{
-	background-color:hsla(0, 19%, 89%, 0.4);
-	
+/*Only for devices with screen less than 700px*/
+@media (max-width: 750px){
+	.box {
+		width: 45%;
+		margin-bottom: 15px;
+		position: relative;
+		left: 22%;
+	}
 }
 
-.space{
-	margin-bottom :50px;
+/* One big Column*/
+.one-int img {
+	width: 100%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.one-column {
+	width: 100%;
+	max-width: 1100px;
+	height: 700px;
+	margin: auto;
+}
+
+.one-int {
+	width: 100%;
+	height: 700px;
+	margin: 20px;
+	position: relative;
+	right:0.01%;
 }
