@@ -96,8 +96,6 @@ body, html {
 @media (max-width:700px){
 	.hero-home {
 		height: 60%;
-		align-items: center;
-		justify-content: center; 
 	}
 }
 
